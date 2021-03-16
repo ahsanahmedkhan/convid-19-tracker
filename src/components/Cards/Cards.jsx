@@ -24,7 +24,7 @@ const Cards = ( { data : { confirmed, recovered, deaths, lastUpdate } }) =>{
                             separator = ","/>
                          </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">Number of REAL Active Cases of CONVID-19</Typography>
+                        <Typography variant="body2">Number of Active Cases of CONVID-19 in the World til Now</Typography>
                     </CardContent>
                 </Grid>
 
@@ -39,7 +39,7 @@ const Cards = ( { data : { confirmed, recovered, deaths, lastUpdate } }) =>{
                             separator = ","/>
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">Number of Recoveries from CONVID-19</Typography>
+                        <Typography variant="body2">Number of Recoveries from CONVID-19 in the World til Now</Typography>
                     </CardContent>
                 </Grid>
 
@@ -54,7 +54,7 @@ const Cards = ( { data : { confirmed, recovered, deaths, lastUpdate } }) =>{
                             separator = ","/>
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">Number of Deaths coused by CONVID-19</Typography>
+                        <Typography variant="body2">Number of Deaths coused by CONVID-19 in the World til Now</Typography>
                     </CardContent>
                 </Grid>
             </Grid>
